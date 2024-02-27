@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lib.sublimis.steadyservice" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="34" />
+7-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:4:5-18:19
+10        <service
+10-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:6:9-16:19
+11            android:name="lib.sublimis.steadyservice.SteadyService"
+11-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:7:13-42
+12            android:exported="true"
+12-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:9:13-36
+13            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+13-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:8:13-79
+14            <intent-filter>
+14-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:10:13-12:29
+15                <action android:name="android.accessibilityservice.AccessibilityService" />
+15-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:11:17-92
+15-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:11:25-89
+16            </intent-filter>
+17
+18            <meta-data
+18-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:13:13-15:72
+19                android:name="android.accessibilityservice"
+19-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:14:17-60
+20                android:resource="@xml/accessibility_service_config" />
+20-->E:\android\projects\SteadyService\app\src\main\AndroidManifest.xml:15:17-69
+21        </service>
+22    </application>
+23
+24</manifest>
