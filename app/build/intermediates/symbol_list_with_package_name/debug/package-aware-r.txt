@@ -1,3 +1,0 @@
-lib.sublimis.steadyservice
-string serviceDescription
-xml accessibility_service_config

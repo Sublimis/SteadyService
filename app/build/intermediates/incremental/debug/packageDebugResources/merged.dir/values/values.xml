@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="serviceDescription">⛵ This service allows compatible applications to easily counteract small device movements within their user interface.\n\n🏝️ This can improve screen readability and possibly alleviate motion sickness while on the go, e.g. while reading in a moving vehicle.\n\n🛡️ The app needs your permission to know which window is visible on the screen. 𝗜𝘁 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗿𝗲𝗮𝗱 𝘄𝗶𝗻𝗱𝗼𝘄 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀.\n\nℹ️ Find more info, implementation details and examples on:\n\n𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/𝚂𝚞𝚋𝚕𝚒𝚖𝚒𝚜/𝚂𝚝𝚎𝚊𝚍𝚢𝚂𝚎𝚛𝚟𝚒𝚌𝚎</string>
-</resources>
