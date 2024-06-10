@@ -18,6 +18,6 @@ Please see the [SteadyScreen](https://github.com/Sublimis/SteadyScreen) project 
 
 ## About the service
 
-This service uses the [AccessibilityService API](https://developer.android.com/reference/android/accessibilityservice/AccessibilityService) to retrieve interactive windows on the screen, in order to find compatible ones. The service then sends multiple "move window" accessibility actions to such windows, as needed, to perform the intended function. The data accessed during the process, using Android's AccessibilityService API, can be of personal and confidential nature (i.e. sensitive information). The service never collects, stores nor shares that data in any way.
+This service uses the [AccessibilityService API](https://developer.android.com/reference/android/accessibilityservice/AccessibilityService) to retrieve interactive windows on the screen, in order to find compatible ones. It then sends multiple "move window" accessibility actions to such windows, as needed, to perform the intended function. The service never collects, stores nor shares any data that can be of personal and confidential nature in any way.
 
 ⚡ The service has been crafted very meticulously, in order to minimize resource usage and maximize performance.
